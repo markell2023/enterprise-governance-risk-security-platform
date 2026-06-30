@@ -1,0 +1,31 @@
+"""
+Enterprise Governance, Risk & Security Platform
+Design System
+Color Palette
+"""
+
+BACKGROUND = "#121212"
+
+SIDEBAR = "#181818"
+
+CARD = "#1E1E1E"
+
+BORDER = "#2D2D2D"
+
+TEXT_PRIMARY = "#F8FAFC"
+
+TEXT_SECONDARY = "#94A3B8"
+
+TEXT_MUTED = "#64748B"
+
+PRIMARY_BLUE = "#3B82F6"
+
+SUCCESS_GREEN = "#22C55E"
+
+WARNING_ORANGE = "#F59E0B"
+
+DANGER_RED = "#EF4444"
+
+AI_PURPLE = "#8B5CF6"
+
+INFO_CYAN = "#06B6D4"
