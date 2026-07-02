@@ -1,34 +1,24 @@
 import streamlit as st
+
 from modules.executive_dashboard import show_executive_dashboard
+from modules.enterprise_risk import show_enterprise_risk
+from theme.styles import load_theme
+
 
 st.set_page_config(
     page_title="Enterprise Governance, Risk & Security Platform",
     page_icon="🛡️",
-    layout="wide"
+    layout="wide",
 )
 
-st.markdown("""
-<style>
-.stApp {
-    background-color: #121212;
-    color: #F8FAFC;
-}
-section[data-testid="stSidebar"] {
-    background-color: #181818;
-}
-.main-title {
-    font-size: 2.3rem;
-    font-weight: 800;
-    color: #F8FAFC;
-}
-.subtitle {
-    color: #94A3B8;
-    font-size: 1rem;
-}
-</style>
-""", unsafe_allow_html=True)
+# Load global theme
+st.markdown(load_theme(), unsafe_allow_html=True)
 
-st.sidebar.markdown("## 🛡️ EGRSP")
+# -----------------------------
+# Sidebar
+# -----------------------------
+
+st.sidebar.markdown("## EGRSP")
 st.sidebar.caption("Apex Horizon Energy")
 
 page = st.sidebar.radio(
@@ -44,20 +34,34 @@ page = st.sidebar.radio(
         "Audit Center",
         "Assets",
         "Vulnerabilities",
-        "Reports"
-    ]
+        "Reports",
+    ],
 )
 
 st.sidebar.markdown("---")
+
 st.sidebar.caption("User: Markell Mitchell")
 st.sidebar.caption("Role: Governance & Risk Analyst")
 
-if "Dashboard" in page:
+# -----------------------------
+# Main Pages
+# -----------------------------
+
+if page == "Dashboard":
     show_executive_dashboard()
+
+elif page == "Enterprise Risk":
+    show_enterprise_risk()
+
 else:
-    st.markdown(f"<h1 class='main-title'>{page}</h1>", unsafe_allow_html=True)
     st.markdown(
-        "<p class='subtitle'>Module shell created. Full functionality coming in a future sprint.</p>",
-        unsafe_allow_html=True
+        f"<h1 class='main-title'>{page}</h1>",
+        unsafe_allow_html=True,
     )
-    st.info("This page is part of the project roadmap.")
+
+    st.markdown(
+        "<p class='subtitle'>Module under development.</p>",
+        unsafe_allow_html=True,
+    )
+
+    st.info("This page will be implemented in a future sprint.")
