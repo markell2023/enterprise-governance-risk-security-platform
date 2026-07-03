@@ -2,6 +2,9 @@ import streamlit as st
 
 from modules.executive_dashboard import show_executive_dashboard
 from modules.enterprise_risk import show_enterprise_risk
+from modules.ai_governance import show_ai_governance
+from modules.cyber_operations import show_cyber_operations
+from modules.vendor_risk import show_vendor_risk
 from theme.styles import load_theme
 
 
@@ -52,6 +55,16 @@ if page == "Dashboard":
 
 elif page == "Enterprise Risk":
     show_enterprise_risk()
+
+elif page == "AI Governance":
+    show_ai_governance()
+     
+elif page == "Cyber Operations":
+    show_cyber_operations()
+
+elif page == "Vendor Risk":
+    show_vendor_risk()
+    
 
 else:
     st.markdown(

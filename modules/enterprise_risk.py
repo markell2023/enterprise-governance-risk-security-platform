@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+from modules.ui_components import kpi_card
+from modules.risk_heatmap import show_risk_heatmap
+
 
 def show_enterprise_risk():
     st.markdown(
@@ -43,10 +46,17 @@ def show_enterprise_risk():
 
     col1, col2, col3, col4 = st.columns(4)
 
-    col1.metric("Total Risks", total_risks)
-    col2.metric("High/Critical Risks", high_risks)
-    col3.metric("Open Risks", open_risks)
-    col4.metric("Avg. Risk Score", avg_score)
+    with col1:
+        kpi_card("Total Risks", total_risks, "Enterprise risk inventory")
+
+    with col2:
+        kpi_card("High/Critical Risks", high_risks, "Require leadership attention")
+
+    with col3:
+        kpi_card("Open Risks", open_risks, "Active risk items")
+
+    with col4:
+        kpi_card("Avg. Risk Score", avg_score, "Current risk average")
 
     st.markdown("---")
 
@@ -91,3 +101,6 @@ def show_enterprise_risk():
         use_container_width=True,
         hide_index=True,
     )
+
+    st.markdown("---")
+    show_risk_heatmap(filtered_risks)
