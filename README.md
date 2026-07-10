@@ -12,12 +12,11 @@ The platform demonstrates how an organization can centralize enterprise risk, cy
 ## Live Application
 
 **Live Streamlit Application:**  
-[Open the Enterprise Governance, Risk & Security Platform](YOUR_STREAMLIT_URL_HERE)
+[Open the Enterprise Governance, Risk & Security Platform](https://enterprise-governance-risk-security-platform-dqhpu9lzvgm8qtrsf.streamlit.app/)
 
 **GitHub Repository:**  
 [View the source code](https://github.com/markell2023/enterprise-governance-risk-security-platform)
 
-> Replace `YOUR_STREAMLIT_URL_HERE` with the deployed Streamlit address after deployment.
 
 ---
 
