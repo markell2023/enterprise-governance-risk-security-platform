@@ -1,44 +1,242 @@
-# Enterprise Governance, Risk & Security Platform (EGRSP)
+# Enterprise Governance, Risk & Security Platform
 
-## Overview
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Application-red)](https://streamlit.io/)
+[![Version](https://img.shields.io/badge/Version-1.0.0-green)](#)
+[![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)](#)
 
-The Enterprise Governance, Risk & Security Platform (EGRSP) is a professional portfolio application that simulates an enterprise governance, cybersecurity, and risk management platform used by Apex Horizon Energy.
+A modular enterprise Governance, Risk, Compliance, and Information Security platform developed with Python and Streamlit.
 
-The application is designed to demonstrate practical knowledge in:
+The platform demonstrates how an organization can centralize enterprise risk, cybersecurity operations, compliance monitoring, vulnerability management, audit activity, AI governance, third-party risk, asset management, incident response, and executive reporting.
 
-- Governance, Risk & Compliance (GRC)
-- Enterprise Risk Management
-- AI Model Governance
-- Cybersecurity Operations
-- Incident Response
-- Vendor Risk Management
-- Compliance Management
-- Executive Reporting
+## Live Application
+
+**Live Streamlit Application:**  
+[Open the Enterprise Governance, Risk & Security Platform](YOUR_STREAMLIT_URL_HERE)
+
+**GitHub Repository:**  
+[View the source code](https://github.com/markell2023/enterprise-governance-risk-security-platform)
+
+> Replace `YOUR_STREAMLIT_URL_HERE` with the deployed Streamlit address after deployment.
 
 ---
 
-## Fictional Organization
+## Project Overview
 
-**Apex Horizon Energy**
+The Enterprise Governance, Risk & Security Platform was created to demonstrate how cybersecurity, information assurance, governance, and business-risk information can be consolidated into one executive decision-support application.
 
-Industry: Oil & Gas
+The application helps answer questions such as:
 
-Headquarters: Oklahoma City, Oklahoma
+- What are the organization’s highest enterprise risks?
+- Which vulnerabilities require immediate remediation?
+- Which security incidents are currently active?
+- Are critical vendors properly assessed?
+- Which compliance controls remain incomplete?
+- Which audit findings require leadership attention?
+- Are enterprise AI systems properly governed?
+- Which assets create lifecycle or security exposure?
+- What should executive leadership prioritize next?
 
-Employees: 4,800
+---
 
-Cloud Platform: Microsoft Azure
+## Application Modules
 
-Frameworks:
+### Executive Dashboard
+
+Provides leadership with a consolidated view of:
+
+- Enterprise risk posture
+- Compliance performance
+- Critical risks
+- Cybersecurity activity
+- AI governance
+- Audit activity
+- Executive actions
+- Upcoming deadlines
+
+### Enterprise Risk
+
+Includes:
+
+- Enterprise risk register
+- Risk ownership
+- Likelihood and impact ratings
+- Risk scores
+- Mitigation plans
+- Search and filtering
+- Interactive risk heat map
+
+### AI Governance
+
+Tracks:
+
+- Enterprise AI models
+- Business units
+- Model owners
+- Risk classifications
+- Validation status
+- Governance reviews
+- Executive approval requirements
+
+### Cyber Operations
+
+Provides visibility into:
+
+- Security operations activity
+- Open incidents
+- Critical security events
+- Resolution activity
+- System health
+- Response ownership
+- Executive security recommendations
+
+### Incident Management
+
+Tracks:
+
+- Security incidents
+- Severity
+- Response status
+- Incident owners
+- MITRE ATT&CK tactics
+- Containment status
+- Detection dates
+- Target resolution dates
+
+### Vendor Risk
+
+Includes:
+
+- Third-party vendor inventory
+- Vendor criticality
+- Security risk
+- SOC 2 documentation status
+- Security review status
+- Vendor ownership
+- Remediation recommendations
+
+### Compliance Center
+
+Tracks controls across:
 
 - NIST Cybersecurity Framework
 - ISO 27001
 - CIS Controls
+- SOC 2
+
+The module includes framework coverage charts, compliance scores, evidence readiness, control filtering, and open compliance gaps.
+
+### Audit Center
+
+Includes:
+
+- Internal and external audit inventory
+- Audit status
+- Audit ownership
+- Open findings
+- Finding severity
+- Remediation due dates
+- Audit filtering
+- Executive recommendations
+
+### Asset Inventory
+
+Tracks:
+
+- Enterprise technology assets
+- Asset types
+- Owners
+- Business environments
+- Criticality
+- Security classifications
+- Operating systems
+- Lifecycle status
+- Last security-review dates
+
+### Vulnerability Management
+
+Includes:
+
+- Vulnerability inventory
+- CVSS scores
+- Severity classifications
+- Affected assets
+- Remediation owners
+- Status
+- SLA tracking
+- Target remediation dates
+- Severity visualization
+
+### Executive Reports
+
+Provides:
+
+- Enterprise security scorecard
+- Security-domain performance
+- Report library
+- Scheduled reports
+- CSV export center
+- Executive recommendations
 
 ---
 
-## Current Version
+## Key Features
 
-Version 1.0.0
+- Eleven functional governance and security modules
+- Modular Python architecture
+- Reusable KPI-card component
+- Professional dark enterprise interface
+- Interactive Plotly charts
+- Enterprise risk heat map
+- Search and filtering
+- Executive intelligence summaries
+- Governance and remediation recommendations
+- Downloadable CSV reports
+- Responsive Streamlit layout
+- Fictional enterprise-security dataset
 
-Status: 🚧 In Development
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- HTML
+- CSS
+- Git
+- GitHub
+
+---
+
+## Project Structure
+
+```text
+enterprise-governance-risk-security-platform/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+│
+├── modules/
+│   ├── __init__.py
+│   ├── executive_dashboard.py
+│   ├── executive_intelligence.py
+│   ├── enterprise_risk.py
+│   ├── risk_heatmap.py
+│   ├── ai_governance.py
+│   ├── cyber_operations.py
+│   ├── incidents.py
+│   ├── vendor_risk.py
+│   ├── compliance.py
+│   ├── audit_center.py
+│   ├── assets.py
+│   ├── vulnerabilities.py
+│   ├── reports.py
+│   └── ui_components.py
+│
+└── theme/
+    ├── __init__.py
+    ├── colors.py
+    └── styles.py

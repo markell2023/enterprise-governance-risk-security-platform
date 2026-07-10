@@ -19,6 +19,13 @@ html, body, [class*="css"] {{
     font-family: 'Inter', sans-serif;
 }}
 
+p,
+span,
+label,
+div {{
+    color: #CBD5E1;
+}}
+
 /* ---------- APP ---------- */
 
 .stApp {{
@@ -32,6 +39,32 @@ section[data-testid="stSidebar"] {{
     background-color: {SIDEBAR};
 }}
 
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] strong {{
+    color: #F8FAFC !important;
+}}
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] div {{
+    color: #CBD5E1 !important;
+}}
+
+section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {{
+    color: #94A3B8 !important;
+}}
+
+section[data-testid="stSidebar"] [role="radiogroup"] label {{
+    color: #CBD5E1 !important;
+}}
+
+section[data-testid="stSidebar"] [role="radiogroup"] label:hover {{
+    color: #F8FAFC !important;
+}}
+
 /* ---------- HEADINGS ---------- */
 
 .main-title {{
@@ -42,7 +75,7 @@ section[data-testid="stSidebar"] {{
 }}
 
 .subtitle {{
-    color: {TEXT_SECONDARY};
+    color: #CBD5E1;
     font-size: 1rem;
     margin-bottom: 2rem;
 }}
@@ -55,6 +88,34 @@ section[data-testid="stSidebar"] {{
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 1rem;
+}}
+
+/* ---------- STREAMLIT TEXT ---------- */
+
+[data-testid="stMarkdownContainer"] p {{
+    color: #CBD5E1;
+}}
+
+[data-testid="stCaptionContainer"] {{
+    color: #94A3B8 !important;
+}}
+
+/* ---------- INPUT LABELS ---------- */
+
+label[data-testid="stWidgetLabel"] p {{
+    color: #CBD5E1 !important;
+}}
+
+/* ---------- DATAFRAME TEXT ---------- */
+
+[data-testid="stDataFrame"] {{
+    color: #111827;
+}}
+
+/* ---------- FOOTER TEXT ---------- */
+
+footer {{
+    color: #94A3B8;
 }}
 
 </style>
