@@ -256,10 +256,9 @@ enterprise-governance-risk-security-platform/
     ├── __init__.py
     ├── colors.py
     └── styles.py
+```
 
-    ```
-
-    ---
+---
 
 ## Skills Demonstrated
 
