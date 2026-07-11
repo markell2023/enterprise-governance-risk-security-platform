@@ -5,28 +5,29 @@
 [![Version](https://img.shields.io/badge/Version-1.0.0-green)](#)
 [![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)](#)
 
-A modular enterprise Governance, Risk, Compliance, and Information Security platform developed with Python and Streamlit.
+A modular Enterprise Governance, Risk, Compliance (GRC), and Information Security platform developed with Python and Streamlit.
 
-The platform demonstrates how an organization can centralize enterprise risk, cybersecurity operations, compliance monitoring, vulnerability management, audit activity, AI governance, third-party risk, asset management, incident response, and executive reporting.
-
-## Live Application
-
-**Live Streamlit Application:**  
-[Open the Enterprise Governance, Risk & Security Platform](https://enterprise-governance-risk-security-platform-dqhpu9lzvgm8qtrsf.streamlit.app/)
-
-**GitHub Repository:**  
-[View the source code](https://github.com/markell2023/enterprise-governance-risk-security-platform)
+The platform demonstrates how an organization can centralize enterprise risk, cybersecurity operations, compliance monitoring, vulnerability management, audit activity, AI governance, third-party risk, asset management, incident response, and executive reporting within a single executive dashboard.
 
 ---
 
+## Live Application
 
-# Application Preview
+**Live Streamlit Application**  
+https://enterprise-governance-risk-security-platform-dqhpu9lzvgm8qtrsf.streamlit.app/
 
-## Executive Dashboard
+**GitHub Repository**  
+https://github.com/markell2023/enterprise-governance-risk-security-platform
+
+---
+
+## Application Preview
+
+### Executive Dashboard
 
 ![Executive Dashboard](assets/dashboard.png)
 
-## Enterprise Risk Register
+### Enterprise Risk Register
 
 ![Enterprise Risk Register](assets/enterprise-risk.png)
 
@@ -34,11 +35,11 @@ The platform demonstrates how an organization can centralize enterprise risk, cy
 
 ## Project Overview
 
-The Enterprise Governance, Risk & Security Platform was created to demonstrate how cybersecurity, information assurance, governance, and business-risk information can be consolidated into one executive decision-support application.
+The Enterprise Governance, Risk & Security Platform was created to demonstrate how cybersecurity, information assurance, governance, and business-risk information can be consolidated into a single executive decision-support application.
 
 The application helps answer questions such as:
 
-- What are the organization’s highest enterprise risks?S
+- What are the organization’s highest enterprise risks?
 - Which vulnerabilities require immediate remediation?
 - Which security incidents are currently active?
 - Are critical vendors properly assessed?
@@ -162,7 +163,7 @@ Tracks:
 - Security classifications
 - Operating systems
 - Lifecycle status
-- Last security-review dates
+- Last security review dates
 
 ### Vulnerability Management
 
@@ -183,7 +184,7 @@ Includes:
 Provides:
 
 - Enterprise security scorecard
-- Security-domain performance
+- Security domain performance
 - Report library
 - Scheduled reports
 - CSV export center
@@ -195,16 +196,16 @@ Provides:
 
 - Eleven functional governance and security modules
 - Modular Python architecture
-- Reusable KPI-card component
-- Professional dark enterprise interface
-- Interactive Plotly charts
+- Reusable KPI card component
+- Professional enterprise interface
+- Interactive Plotly visualizations
 - Enterprise risk heat map
-- Search and filtering
+- Search and filtering capabilities
 - Executive intelligence summaries
 - Governance and remediation recommendations
 - Downloadable CSV reports
 - Responsive Streamlit layout
-- Fictional enterprise-security dataset
+- Fictional enterprise security dataset
 
 ---
 
@@ -229,6 +230,10 @@ enterprise-governance-risk-security-platform/
 ├── app.py
 ├── README.md
 ├── requirements.txt
+│
+├── assets/
+│   ├── dashboard.png
+│   └── enterprise-risk.png
 │
 ├── modules/
 │   ├── __init__.py
