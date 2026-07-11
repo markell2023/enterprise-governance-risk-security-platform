@@ -1,7 +1,7 @@
 # Enterprise Governance, Risk & Security Platform
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Application-red)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Application-red)](https://enterprise-governance-risk-security-platform-dqhpu9lzvgm8qtrsf.streamlit.app/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green)](#)
 [![Portfolio Project](https://img.shields.io/badge/Project-Portfolio-purple)](#)
 
@@ -17,6 +17,18 @@ The platform demonstrates how an organization can centralize enterprise risk, cy
 **GitHub Repository:**  
 [View the source code](https://github.com/markell2023/enterprise-governance-risk-security-platform)
 
+---
+
+
+# Application Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](assets/dashboard.png)
+
+## Enterprise Risk Register
+
+![Enterprise Risk Register](assets/enterprise-risk.png)
 
 ---
 
@@ -26,7 +38,7 @@ The Enterprise Governance, Risk & Security Platform was created to demonstrate h
 
 The application helps answer questions such as:
 
-- What are the organization’s highest enterprise risks?
+- What are the organization’s highest enterprise risks?S
 - Which vulnerabilities require immediate remediation?
 - Which security incidents are currently active?
 - Are critical vendors properly assessed?
