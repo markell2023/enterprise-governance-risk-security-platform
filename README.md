@@ -291,3 +291,35 @@ This application is a fictional portfolio project created for educational and pr
 Apex Horizon Energy is a fictional organization. All risks, incidents, vendors, assets, audit findings, compliance data, security events, AI models, and performance metrics are simulated.
 
 Any references to cybersecurity frameworks, vendors, technologies, or organizations are for demonstration purposes only and do not represent actual assessments, security findings, business relationships, or endorsements.
+
+---
+
+## Future Enhancements
+
+Potential future improvements include:
+
+- Role-Based Access Control (RBAC)
+- User Authentication and Authorization
+- PostgreSQL database integration
+- REST API integration
+- Real-time security alert monitoring
+- Automated enterprise risk scoring
+- Executive PDF report generation
+- Microsoft Entra ID (Azure AD) integration
+- Docker containerization
+- Cloud deployment with CI/CD pipelines
+
+---
+
+## Developed By
+
+**Markell Mitchell**
+
+**GitHub:**  
+https://github.com/markell2023
+
+**Live Application:**  
+https://enterprise-governance-risk-security-platform-dqhpu9lzvgm8qtrsf.streamlit.app/
+
+**Repository:**  
+https://github.com/markell2023/enterprise-governance-risk-security-platform
