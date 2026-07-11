@@ -256,3 +256,37 @@ enterprise-governance-risk-security-platform/
     ├── __init__.py
     ├── colors.py
     └── styles.py
+
+    ---
+
+## Skills Demonstrated
+
+- Governance, Risk, and Compliance (GRC)
+- Information Assurance
+- Enterprise Risk Management
+- Cybersecurity Operations
+- Incident Response
+- Vulnerability Management
+- Third-Party Risk Management
+- AI Governance
+- Audit Management
+- Compliance Monitoring
+- Asset Security
+- Security Metrics & KPI Reporting
+- Executive Dashboard Development
+- Python Application Development
+- Streamlit Development
+- Pandas Data Analysis
+- Plotly Data Visualization
+- Modular Software Architecture
+- Git & GitHub Version Control
+
+---
+
+## Portfolio Disclaimer
+
+This application is a fictional portfolio project created for educational and professional demonstration purposes.
+
+Apex Horizon Energy is a fictional organization. All risks, incidents, vendors, assets, audit findings, compliance data, security events, AI models, and performance metrics are simulated.
+
+Any references to cybersecurity frameworks, vendors, technologies, or organizations are for demonstration purposes only and do not represent actual assessments, security findings, business relationships, or endorsements.
