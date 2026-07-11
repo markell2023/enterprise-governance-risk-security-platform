@@ -257,6 +257,8 @@ enterprise-governance-risk-security-platform/
     ├── colors.py
     └── styles.py
 
+    ```
+
     ---
 
 ## Skills Demonstrated
